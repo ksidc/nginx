@@ -1,0 +1,12 @@
+
+Documentation is available at http://nginx.org
+
+/* 
+ * 1. 소스 수정 사항
+ * 응답헤더의 불필요한 서버정보 노출방지를 위한 헤더 필터 모듈 수정
+ * 
+ * /usr/local/src/nginx-1.17.5/src/http/ngx_http_header_filter_module.c
+ * /usr/local/src/nginx-1.17.5/src/http/v2/ngx_http_v2_filter_module.c
+ * 
+ 2. Nginx 버전 업그레이드 시 DeepFinder 재설치(소스 컴파일) 작업 진행 필수! 
+ */
