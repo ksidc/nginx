@@ -2,11 +2,14 @@
 Documentation is available at http://nginx.org
 
 /* 
- * 1. ¼Ò½º ¼öÁ¤ »çÇ×
- * ÀÀ´äÇì´õÀÇ ºÒÇÊ¿äÇÑ ¼­¹öÁ¤º¸ ³ëÃâ¹æÁö¸¦ À§ÇÑ Çì´õ ÇÊÅÍ ¸ğµâ ¼öÁ¤
+ * 1. ì†ŒìŠ¤ ìˆ˜ì • ì‚¬í•­
+ * ì‘ë‹µí—¤ë”ì˜ ë¶ˆí•„ìš”í•œ ì„œë²„ì •ë³´ ë…¸ì¶œë°©ì§€ë¥¼ ìœ„í•œ í—¤ë” í•„í„° ëª¨ë“ˆ ìˆ˜ì •
  * 
  * /usr/local/src/nginx-1.17.5/src/http/ngx_http_header_filter_module.c
  * /usr/local/src/nginx-1.17.5/src/http/v2/ngx_http_v2_filter_module.c
  * 
- 2. Nginx ¹öÀü ¾÷±×·¹ÀÌµå ½Ã DeepFinder Àç¼³Ä¡(¼Ò½º ÄÄÆÄÀÏ) ÀÛ¾÷ ÁøÇà ÇÊ¼ö! 
+ 2. Nginx ë²„ì „ ì—…ê·¸ë ˆì´ë“œ ì‹œ DeepFinder ì¬ì„¤ì¹˜(ì†ŒìŠ¤ ì»´íŒŒì¼) ì‘ì—… ì§„í–‰ í•„ìˆ˜! 
  */
+ 
+ 
+ fdsafjkildsajfkldsa
