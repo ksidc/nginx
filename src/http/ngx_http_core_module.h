@@ -299,6 +299,7 @@ typedef struct {
 
 struct ngx_http_core_loc_conf_s {
     ngx_str_t     name;          /* location name */
+    ngx_str_t     escaped_name;
 
 #if (NGX_PCRE)
     ngx_http_regex_t  *regex;
@@ -359,10 +360,12 @@ struct ngx_http_core_loc_conf_s {
 
     ngx_msec_t    client_body_timeout;     /* client_body_timeout */
     ngx_msec_t    send_timeout;            /* send_timeout */
+    ngx_msec_t    keepalive_time;          /* keepalive_time */
     ngx_msec_t    keepalive_timeout;       /* keepalive_timeout */
     ngx_msec_t    lingering_time;          /* lingering_time */
     ngx_msec_t    lingering_timeout;       /* lingering_timeout */
     ngx_msec_t    resolver_timeout;        /* resolver_timeout */
+    ngx_msec_t    auth_delay;              /* auth_delay */
 
     ngx_resolver_t  *resolver;             /* resolver */
 
